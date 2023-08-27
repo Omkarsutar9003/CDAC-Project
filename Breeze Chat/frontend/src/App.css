@@ -1,0 +1,1630 @@
+body{
+  background-color:#abd9e9;
+  font-family:Arial;
+}
+
+.admin_name{
+  color: #37C64E;
+}
+.MuiPaper-root{
+  color: #32353C;
+  font-size: 15px;
+  letter-spacing: 0.2px;
+  font-weight: normal;
+  line-height: 20px;
+}
+a{
+  cursor: pointer;
+}
+h1{ 
+  font-weight: 600;
+  font-size: 26px;
+  color: #4678F8;
+  letter-spacing: 0.7px;
+  line-height: normal;
+}
+h2{
+  font-weight: 500;
+  font-size: 22px;
+  margin: 0 0 20px;
+}
+
+h3{ 
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 15px;
+  letter-spacing: 0.2px;
+  line-height: normal;
+}
+h4{
+  font-weight: 500;
+  font-size: 16px;
+  margin: 0 0 0px;
+  text-align: left;
+}
+h5{
+  font-weight: 400;
+  font-size: 15px;
+  margin: 0 0 0px;
+}
+h1.registration{
+  margin-top: 0px !important;
+}
+h2.amtDue{
+  color: #4678F8;
+  margin: 0 0 30px;
+}
+h2.amtDue span{
+
+  color: #32353C;
+  font-size: 18px;
+}
+header.MuiAppBar-colorPrimary{
+  background: #FFFFFF;
+  color: #32353C;
+  min-height: 71px;
+  box-shadow: 0px 0 9px 2px rgb(0 0 0 / 6%);
+  -webkit-box-shadow: 0px 0 9px 2px rgb(0 0 0 / 6%);
+  position: fixed; 
+  top: 0;
+  justify-content: center;
+}
+header .MuiToolbar-gutters{
+  padding: 0px !important;
+}
+
+header .MuiToolbar-regular{
+  display: flex;
+  justify-content: space-between;
+}
+.boldText{
+  font-weight: 500 !important;
+}
+h1.pageHeading{
+  color: #32353C;
+  margin: 10px 0 30px !important;
+  letter-spacing: 0.7px;
+  text-align: center;
+}
+button{
+  background-color: #4678F8 !important;
+  height: 46px;
+  color: #fff !important;
+  padding: 0 23px !important;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  text-transform: none !important;
+  -webkit-box-shadow: 0 0 0px 0 rgba(0,0,0,0) !important;
+  box-shadow: 0 0 0px 0 rgba(0,0,0,0) !important;
+  border-radius: 7px !important;
+}
+
+button.topButton{
+  width: auto !important;
+} 
+button.smButton{ 
+  width: auto !important;
+  min-width: 105px;
+}
+.logoOut img{ 
+  height: 65px; 
+  width: auto;
+}
+.MuiDialog-paperWidthMd{
+  width: 960px;
+  max-width: 100%;
+}
+.MuiRadio-colorSecondary.Mui-checked{
+  color: #4678F8 !important;
+}
+.popupSpace{
+  padding: 25px;
+}
+.popupSpace.memberDetails{
+  padding: 50px 50px 40px ;
+  text-align: center;
+}
+.popupSpace.memberDetails.noSpaceSide{
+  padding: 0 100px 0 ;
+}
+.popupSpace.memberDetails .profilePicInner{
+  width: 90px;
+  height: 90px;
+  display: inline-block;
+  margin-right: 0;
+}
+.popupSpace.memberDetails h3{
+  margin: 15px 0 8px;
+  font-size: 17px;
+  font-weight: 500;
+  cursor: pointer;
+  color: #4678F8;
+}
+.popupSpace.memberDetails h3.noLink{
+  cursor: text;
+  color: #32353C;
+}
+.messageIcon{
+  width: 26px;
+  cursor: pointer;
+}
+.popupSpace.memberDetails .messageIcon{
+  opacity: 0.7;
+}
+.popupSpace.memberDetails h4{
+  margin: 0 0 10px;
+  font-size: 13px;
+  color: #898484;
+  font-weight: 400;
+  text-align: center;
+}
+.popupSpace.memberDetails h4.bottSpace{
+  margin-bottom: 3px !important;
+}
+.memberDetailsCount{
+  display: inline-block;
+  margin: 10px 0 0;
+  width: 400px;
+  max-width: 100%;
+  text-align: center;
+}
+.memberDetailsCount .countsBox{
+  justify-content: center;
+}
+.memberDetails .buttonSpace{
+  margin-top: 20px !important;
+}
+.memberDetailsCount .countsBox span:first-child {
+  margin-right: 31px;
+}
+.MuiDialog-paperWidthSm {
+  width: 450px;
+  max-width: 100%;
+}
+.MuiContainer-root button{
+  background-color: #4678F8 !important;
+  height: 48px;
+  width: 100%;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  text-transform: none !important;
+  -webkit-box-shadow: 0 0 0px 0 rgba(0,0,0,0) !important;
+  box-shadow: 0 0 0px 0 rgba(0,0,0,0) !important;
+  border-radius: 7px !important;
+}
+button:hover{
+  background-color: #2a62f0 !important;
+}
+.MuiContainer-root button{
+  width: 335px;
+  max-width: 100%;
+}
+button.buttBottomSpace{
+  margin-bottom:5px !important;
+}
+button.modalClose{
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  background: none !important;
+  color: #000 !important;
+  padding: 0px !important;
+  opacity: 0.5;
+  height: 30px;
+  width: 30px;
+}
+.MuiContainer-root button.modalClose:hover{
+  background-color: none !important;
+  opacity: 0.99;
+}
+.footerMain{
+  position: fixed;
+  background-color: #F7F7FA;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  border-top: 1px solid #dfdfe4;
+  padding: 22px 0 20px;
+  color: #32353C;
+  font-size: 14px;
+  letter-spacing: 0.4px;
+  z-index: 2;
+
+}
+.footerMain .MuiGrid-item a:hover{
+  color: #2a62f0;
+}
+.centerRight{
+  text-align: right;
+}
+.MuiGrid-spacing-xs-3{
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+.MuiGrid-spacing-xs-3 > .MuiGrid-item {
+  padding: 0 12px !important;
+}
+.centerText{
+  text-align: center;
+}
+.buttonSpace{
+  margin: 40px 0 0 !important;
+}
+.dialogSpace .buttonSpace{
+  margin: 30px 0 0 !important;
+}
+.buttonSpace p.cancel{
+  margin-top: 30px;
+  margin-bottom: 0px;
+  color: #898484;
+  cursor: pointer;
+
+}
+.cursor{ 
+  cursor: pointer;
+}
+.mainBoxInner{
+  display: flex;
+  justify-content: center;
+  height: auto;
+  width: 100%;
+
+}
+.mainBoxInner .MuiContainer-root {
+  margin-top: 95px !important;
+  margin-bottom: 40px !important;
+}
+
+.myInput{ 
+  width: 100%;
+  margin-top: 20px !important;
+}
+.selectOut{ 
+  width: 100%;
+  margin-top: 20px !important;
+}
+.myInput.textArea{
+  height: auto !important;
+}
+.myInput.textArea .MuiOutlinedInput-multiline{
+  padding: 0px;
+}
+.myInput.textArea .MuiOutlinedInput-multiline textarea{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  height: 50px;
+}
+.attacheOut .myInput.textArea .MuiOutlinedInput-multiline textarea{
+  padding-right: 65px !important;
+  margin-bottom: 10px;
+}
+.MuiInputLabel-outlined.MuiInputLabel-shrink{
+  transform: translate(0, 1.5px) scale(0.75) !important;
+  transform-origin: top left;
+}
+.myInput p.Mui-error{
+  margin-top: 6px;
+  padding: 0px 14px;
+  margin-bottom: -3px;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+.myInput .MuiInputBase-root{
+  margin-top: 0px;
+}
+.myInput .MuiInput-underline:after{
+  display: none !important;
+}
+.myInput .MuiInputBase-input{
+  height: 46px;
+  padding: 0px 13px;
+  font-size: 15px;
+  border: 1px solid #dedde0 !important;
+  border-radius: 7px !important;
+  background: #fff;
+}
+.myInput .MuiInputLabel-formControl{
+  top: -7px;
+  left: 8px;
+  z-index: 1;
+  padding: 0 8px 0 8px;
+  font-size: 14px;
+  background: #fff;
+}
+.MuiSelect-select.MuiSelect-selec{
+  top: -7px;
+  left: 8px;
+  z-index: 1;
+  padding: 0 8px 0 8px;
+  font-size: 14px;
+  background: #fff;
+}
+.myInput .MuiInputLabel-outlined.MuiInputLabel-shrink{
+  top: -7px;
+  font-weight: 500;
+  padding: 0 8px 0 8px;
+  left: 7px;
+}
+.myInput .MuiInputLabel-formControl.MuiInputLabel-outlined {
+  padding: 0 8px 0 0 !important;
+  top: -3px !important;
+  left: 2px !important;
+}
+.myInput .MuiInputLabel-formControl.MuiInputLabel-outlined.MuiInputLabel-shrink {
+  top: -6px !important;
+  left: 8px !important;
+  padding-left: 8px !important;
+}
+
+.MuiCheckbox-colorSecondary.Mui-checked {
+  color: #4678F8 !important;
+}
+.myInput .MuiInput-underline:before{
+  display: none !important;
+}
+.plashPaper.noPadding{
+  padding:10px 0px !important;
+}
+.checkBox{
+  font-size: 13px;
+  margin: 22px 0 -2px;
+  color: #898484;
+  letter-spacing: normal;
+  text-align: left;
+}
+.checkBox.centChekBox{
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 0px;
+}
+.radBox{
+  font-size: 13px;
+  margin-left: -3px !important;
+  letter-spacing: normal;
+  text-align: left;
+}
+.radBox span.MuiFormControlLabel-label{
+  font-size: 15px;
+  font-weight: 500;
+  margin-left: 2px;
+  margin-top: -2px !important;
+}
+.MuiRadio-colorPrimary.Mui-checked {
+  color: #4678F8 !important ;
+}
+.checkBox a{
+  color: #4678F8 !important;
+
+}
+.checkBox .MuiButtonBase-root{
+  padding-left: 0px;
+  padding-right: 4px;
+  padding-top: 0px;
+  padding-bottom: 3px;
+}
+.emailveri{ 
+  display: block;
+}
+.plashBox h1.mobverificationHead{
+  margin: 22px 0 25px; 
+  color: #4678F8 !important;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+}
+.plashBox h1.verificationHead{
+  margin: 22px 0 25px; 
+  color: #32353C !important;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+}
+
+.plashBox h1.verificationHead span{
+  display: block;
+  width: 100%;
+}
+.verifyNo { 
+  display:inline-flex; 
+  text-align: center;
+  margin: 25px 0 20px;
+}
+.verifyNo .myInput{
+  width: 45px;
+  padding: 0px;
+  margin:0 7px ;
+  border: 1px solid #dedde0 !important;
+  
+}
+.verifyNo .myInput .MuiOutlinedInput-input{
+  text-align: center !important;
+}
+.thinText{ 
+  font-weight: 100;
+}
+.MuiOutlinedInput-notchedOutline{
+  border: 0px none !important;
+}
+.MuiOutlinedInput-root{
+  border-radius: 7px;
+}
+.profilePic{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.profilePic span{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.profilePic span img{
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+.profilePicInner{
+  width: 50px;
+  min-width: 50px;
+  height: 50px;
+  margin-right: 14px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.profilePicInner:hover img {
+  transform: scale(1.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.profilePicInner img{
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+.profilePic em{
+  font-style: normal;
+  margin-left: 11px;
+}
+.membershipDetails{ 
+  color:#898484;
+  margin-bottom: 0 !important;
+  font-size: 15px;
+}
+.membershipDetails h2{
+  color: #32353C;
+  margin: 15px 0 30px !important;
+}
+.membershipDetails h2.freeTrial{
+  margin: 15px 0 10px !important;
+  color: #4678F8;
+}
+.plans{
+  border: 1px solid #4678F8 !important;
+  height: 46px;
+  font-size: 20px !important;
+  font-weight: 600 !important;
+  border-radius: 7px !important;
+  margin-bottom: 20px;
+  line-height: 48px;
+  color: #4678F8;
+  cursor: pointer;
+  letter-spacing: 1.4px;
+}
+.plans:hover{
+  border: 1px solid #37C64E !important;
+  color: #37C64E;
+}
+.plans span{
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+.plans span img{ 
+  margin-right: 5px;
+}
+.plans.selected{
+  border: 1px solid #37C64E !important;
+  background: #37C64E;
+  color: #fff;
+}
+.smText{ 
+  font-size: 14px !important;
+  letter-spacing: 0.1px !important;
+  color: #898484 !important;
+}
+.termsBox{
+  margin-top: 25px;
+}
+.plashPaper .termsBox p.forgottPassword{
+  margin: 12px 0 0  !important;
+} 
+.plans span{
+  font-weight: 500;
+  font-size: 16px;
+}
+.instiName{
+  display: block;
+  margin-top:13px ;
+}
+p.addacronyms em{
+  font-style: normal;
+  font-weight: 500;
+  color: #32353C;
+}
+p.addacronyms span{
+  
+  font-size: 18px;
+  font-weight: 500;
+  color: #4678F8;
+}
+.sectionnBox{
+  padding: 20px;
+  border-radius: 10px !important;
+  -webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,0.07) !important;
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.07) !important;
+ 
+}
+.sectionnBoxmain{
+  padding: 20px;
+  border-radius: 10px !important;
+  -webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,0.07) !important;
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.07) !important;
+  height: 370px;
+}
+.boxRow{
+  display: flex ;
+   border:1px solid #e4e4e4; 
+   border-radius: 10px ;
+   padding:13px 15px;
+   margin:0 0 13px  !important;
+   align-items: center;
+   position: relative;
+}
+.plashInner .boxRow{
+  margin-bottom: 0px !important;
+}
+
+.arrowLInk{
+  right: -10px;
+  top: 50%;
+  margin-top: -11px;
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  border-radius: 20px;
+  border: 1px solid #e4e4e4;
+  background: #fff;
+  text-align: center;
+  color: #cbcbcb;
+  cursor: pointer;
+}
+.arrowLInk:hover{
+  background:#4678F8;
+  border: 1px solid #4678F8;
+  color: #fff;
+}
+.arrowLInk svg{
+  width: 13px;
+  height: auto;
+  margin-top: 4px;
+  margin-left: 1px;
+}
+.boxRow.postboxRow{
+  display: block;
+}
+.sectionnBox .boxRow:last-child{
+   margin-bottom: 0px !important;
+}
+.selectRow .boxRow:last-child{
+  margin-bottom: 0px !important;
+}
+.dialogSpace .selectRow .boxRow{
+  cursor: pointer;
+}
+.postBoxTop{ 
+  display: flex;
+  justify-content: space-between;
+}
+.postBoxBott{ 
+  display: flex;
+  justify-content: space-between;
+  margin-top: 13px;
+  padding-top: 13px;
+  border-top: 1px solid #e4e4e4;
+}
+.boxData{
+  width: auto;
+  text-align: left;
+}
+.countsBox{
+  display: flex ; 
+  align-items: center;
+  color: #A9ABAF;
+}
+.boxData p.userName{
+  color: #4678F8;
+  font-weight: 500;
+  font-size: 18px;
+}
+.countsBox span{
+  display: flex ; 
+  align-items: center;
+}
+.countsBox span img{
+  height: 20px;
+  width: auto;
+}
+.countsBox span p{
+  font-size: 14px !important;
+  padding-left: 6px;
+  padding-top: 1px;
+}
+.countsBox span:first-child{
+  margin-right: 20px;
+}
+.postBoxTopLeft p{
+  font-size: 17px;
+}
+p.grName {
+  font-size: 16px;
+  margin-top: 1px;
+  color: #adb2bd;
+  overflow-wrap: break-word;
+}
+.postBoxTopRight{
+  margin-top: 3px;
+}
+.postBoxTopRight p{
+  font-size: 12px;
+  margin-top: 11px;
+  text-align: right;;
+  font-weight: 300;
+  color: #A9ABAF;
+}
+.postBoxTopRightData{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.menuIconDots{
+  display: flex;
+  margin-right: -9px;
+  margin-left: 7px;
+  color: #898484;
+  cursor: pointer;
+}
+.notificationDot{
+  height: 10px;
+  width: 10px;
+  border-radius: 10px;
+  background-color: #F80505;
+}
+.showIcons .menuIconDots{
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  color: #fff;
+  margin-right: 0;
+  margin-top: -12px;
+}
+.showIcons{
+  display: block;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  right: 0;
+  top: -90%;
+  background: rgba(0, 0, 0, 0.45);
+}
+.showIcons span{
+  height: 42px;
+  cursor: pointer;
+  width: 42px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+  border-radius: 50%;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 15px 0 rgba(0,0,0,0.18) !important;
+  box-shadow: 0 0 15px 0 rgba(0,0,0,0.18) !important;
+}
+.iconOut{
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content:center ;
+}
+.postBoxTopRightData .MuiChip-outlined{
+  border: 1px solid #37C64E;
+  color: #37C64E;
+  height: 28px;
+}
+.rsvpSection{ display: flex;}
+.rsvpSection p{ 
+  letter-spacing: 1px;
+  font-weight: 500;
+  color: #4678F8;    
+}
+
+
+/*** Plash ***/
+.plashBox{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.plashBox h1{
+  margin: 0 0 25px;
+}
+.plashInner{
+  display: inline-flex;
+  width: 335px;
+  max-width: 100%;
+  flex-direction: column;
+} 
+.mainLogo{ margin-bottom: 40px;}
+.mainBox{ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.plashPaper{
+  text-align: center;
+  width: 100%;
+  border-radius: 10px !important;
+  -webkit-box-shadow: 0 0 15px 0 rgba(0,0,0,0.12) !important;
+  box-shadow: 0 0 15px 0 rgba(0,0,0,0.12) !important;
+  padding: 80px 0 !important;
+  margin-bottom: 57px;
+}
+.plashPaper p{
+  margin: 0px;
+}
+.plashPaper p.pashText{
+  margin-bottom: 5px;
+}
+.plashPaper p.newuser{
+  margin-top: 5px;
+  cursor: pointer;
+}
+.plashPaper p.forgottPassword{
+  margin: 5px 0 25px !important;
+  text-decoration: underline;
+  color: #4678F8;
+  font-size: 13px;
+  cursor: pointer;
+}
+.plashPaper p.acronym{
+  margin: 10px 0 5px !important;
+  color: #4678F8;
+  font-size: 13px;
+  cursor: pointer;
+  text-align: left; 
+}
+.plashPaper p a{
+  color: #2a62f0;
+  font-weight: 500;
+  cursor: pointer;
+}
+.plashPaper button{ 
+  margin: 20px 0 0;
+}
+.plashPaper.noSpaceBott button{ 
+  margin: 20px 0 0;
+}
+/*** End Plash ***/
+
+/*** Terms conditions ***/
+
+.mainPaper{
+  text-align: center;
+  width: 100%;
+  border-radius: 10px !important;
+  -webkit-box-shadow: 0 0 15px 0 rgba(0,0,0,0.12) !important;
+  box-shadow: 0 0 15px 0 rgba(0,0,0,0.12) !important;
+  padding: 80px 0 !important;
+  margin-bottom: 70px;
+  margin-bottom: 57px;
+}
+.myPaper{
+  text-align: center;
+  width: 100%;
+  border-radius: 8px !important;
+  -webkit-box-shadow: 0 0 6px 0 rgba(0,0,0,0.07) !important;
+  box-shadow: 0 0 6px 0 rgba(0,0,0,0.07) !important;
+  padding:0 !important;
+  display: flex;
+  text-align: left;
+  justify-content: space-between;
+}
+.innerPadding{
+  display: block;
+  padding: 20px !important;
+}
+h3.noTopMar{ 
+  margin-top: 0px !important;
+}
+.listingItem {
+  margin-bottom: 40px !important;
+}
+.listingItem .myPaper{
+  display: block;
+}
+.alPostLeft{
+  display: flex;
+  align-items: center;
+}
+.alPostLeft .profilePicInner{
+  height: 60px;
+  width: 60px;
+  min-width: 60px;
+}
+.alPostRight{
+  display: flex;
+  justify-content:flex-end;
+  align-items: center;
+}
+.alPostMid {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items:center;
+}
+.alPostMid hr.MuiDivider-flexItem{
+  margin: 0 50px;
+}
+.alPostMid span{
+  height: 60px;
+  border: 1px solid #dedde0 ;
+  width: 60px;
+  border-radius: 8px;
+  line-height: 82px;
+  margin-right: 20px;
+  text-align: center;
+}
+.countsOut{ 
+  text-align: center;
+}
+.countsOut h2{ 
+  font-size: 28px;
+  margin: 0px;
+  font-weight: 400;
+}
+.countsOut p{ 
+  margin: 15px 0 0;
+  color: #898484;
+}
+.topSpace{
+  margin-top: 20px !important;
+}
+.creatPost{
+  margin-top: 20px !important;
+}
+.creatPost h3{
+  margin: 0px;
+}
+.creatPost .checkBox{
+  font-size: 14px;
+  margin-top: 17px;
+}
+.attacheOut{ position: relative;}
+.attacheOut .MuiOutlinedInput-adornedEnd{
+  padding-right: 0px;
+}
+.attacheOut button{
+  border-radius: 0 7px 7px 0 !important;
+  padding: 0 !important;
+  margin-left: 0;
+  width: 50px !important;
+  height: 48px !important;
+  margin-right: 0px;
+  color: #898484 !important;
+  background: #fff !important;
+  border: 1px solid #dedde0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.attacheOut .myInput .MuiInputBase-input{
+  padding-right: 45px !important;
+}
+button.blueAdd{
+  background: #4678F8 !important;
+  color: #fff !important;
+  border: 1px solid #4678F8 !important;
+}
+button.blueAdd svg{    
+  height: 22px !important;
+  width: auto !important;}
+.attacheOut .atachRight button.MuiIconButton-root{
+height: 107px !important;
+position: absolute;
+right: 0;
+top: 0;
+margin-bottom: 0px;
+}
+
+button.outlineButt{
+  background: #fff !important;
+  color: #4678F8 !important;
+  border: 2px solid #4678F8 !important;
+  margin-top: 20px !important;
+}
+button.outlineButt.blueButt{
+  background: #4678F8 !important;
+  color: #fff !important;
+  border: 2px solid #4678F8 !important;
+}
+.innerSpace{
+  padding: 20px;
+  display: flex;
+  width: auto;
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+}
+.swal-footer{ 
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 3px;
+}
+.swal-title{
+  font-size: 24px;
+  color: #4678F8;
+  padding-top: 0px !important;
+}
+.customLabel{
+  font-weight: 500;
+  text-align: center;
+  font-size: 11px !important;
+  height: 10px;
+  color: #8c8a8a;
+  line-height: 11px;
+  margin-left: 8px;
+  bottom: -25px;
+  z-index: 9;
+  background-color: #fff;  
+  padding:  0 8px;
+  float: left;
+  position: relative;
+}
+.fillWidth{
+  width: 100%;
+}
+.selectGroup{
+   display: flex;
+   justify-content: space-between;
+}
+.instituteName{
+  text-align: left;
+  margin-left: 5px;
+}
+.instituteName h1{
+  font-size: 23px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  letter-spacing: 0.1px;
+}
+.addedSuccess{
+  color: #37C64E;
+  margin: 20px 0 0px !important;
+}
+.confirmDelete{
+  text-align: center;
+  padding: 20px 30px 40px;
+}
+.confirmDelete .deletePost {
+  margin: 20px 0 27px;
+  font-size: 17px;
+}
+.instituteName p{
+  margin: 0px;
+  font-size: 16px;
+}
+.dialogSpace{
+  padding: 50px 130px;
+  display: block;
+}
+.dialogSpace .MuiDialogTitle-root{
+  padding:0px ;
+  text-align: center;
+}
+p.viewAll{ 
+  margin-top: 3px;
+  cursor: pointer;
+  margin-bottom: 10px !important;
+  color: #4678F8;
+}
+.buttonSpace button{
+  width: 355px;
+  max-width: 100%;
+}
+.dialogSpace .MuiDialogTitle-root h2{
+  margin-bottom: 0; 
+  font-size: 18px;
+}
+.dialogSpace .MuiDialogTitle-root h1{
+  margin-bottom: 10px;
+}
+.dialogSpace .MuiDialogContent-root{
+  padding:0px 12px ;
+}
+.textCenter{ 
+  text-align: center;
+}
+.plashPaper.myPaper{
+  display: block;
+  width: 100%;
+}
+.plashPaper.myPaper h1{
+  margin-bottom: 0px;
+  text-align: center;
+}
+.bottSpace{ 
+  margin-bottom: 15px !important;
+}
+.textCenter .cancel{
+  padding-top: 10px;
+  cursor: pointer;
+}
+.selectRow{
+  text-align: center;
+}
+.selectRow .boxRow .boxData {
+  width: 82%;
+}
+.boxData p.publicGroup {
+  font-size: 14px !important;
+  font-weight: 500;
+  color: #32353C;
+
+}
+.selectRow .boxRow .MuiCheckbox-root{
+  margin-left: -10px;
+  margin-right: 4px;
+}
+.deletePost{
+  margin: 40px 0 40px;
+  font-size: 22px;
+}
+.deletePost span{
+  font-weight: 500;
+  display: block;
+  margin-top: 8px;
+  letter-spacing: normal;
+  line-height:normal;
+  color:#4678F8;
+}
+.addMoreGroups{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.addMoreGroups p{
+  margin-top: 15px;
+  font-weight: 500;
+  display: flex;
+
+}
+.addMoreGroups p .MuiBox-root{
+  margin-left: 10px;
+  cursor: pointer;
+  display: flex;
+  color: #4678F8;
+}
+.alPostRight button.iconButton{
+  margin-left: 15px;
+}
+button.iconButton{ padding:0 15px  !important;}
+.addMoreGroups p .MuiBox-root svg{
+  margin-left: 5px;
+
+}
+.menuDotsOut .menuIconDots{
+  position: absolute;
+  right: 15px;
+  top: 13px;
+}
+.deleted{
+  color: #F80505;
+  text-align: center;
+  margin: 20px 0;
+}
+.selectCard{
+  display: flex;
+  margin: 20px 0 30px;
+}
+.selectCard span{ 
+  margin-right: 15px;
+  border-radius: 8px;
+  overflow: hidden;
+  display: inline-flex;
+  padding: 0;
+  background: #FFFFFF;
+  border: 2px solid #fff;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 13px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+}
+.selectCard span:last-child{ 
+  margin-right: 15px;
+}
+.selectCard span:hover{
+  border: #37C64E 2px solid;
+}
+.selectCard span.selected{
+  border: #37C64E 2px solid;
+}
+.rightNav{
+  display: flex;
+}
+.rightNav .MuiIconButton-edgeEnd{
+  margin-right: 0;
+}
+.rightNav .profilePic em{
+  margin-right: 20px;
+}
+.commentsBox{
+  display: block;
+  position: relative; 
+}
+.commentsTop{
+  display: flex;
+  margin-top: 16px;
+  position: relative; 
+  justify-content: space-between;
+}
+.commentsTop button.modalClose{
+  top: -5px;
+  right: -9px;
+  display: none;     
+}
+.commentsTop button.modalClose .MuiSvgIcon-root{
+  height: 20px;
+  width: auto;
+}
+.commentsBody{
+  display: block;
+}
+.commentsBott{
+  display: flex;
+  border-radius: 8px;
+  padding: 5px 5px 5px 15px;
+  background: #F0F0F0;
+  margin-bottom: 2px;
+  justify-content: space-between;
+}
+.commentsBott .myInput{
+  margin-top: 0px !important;
+  width: 95%;
+}
+.commentsBott button.MuiButton-root{
+  padding: 0 !important;
+  width: 40px;
+  max-width: 40px;
+  min-width: 40px;
+  height: 46px;
+  background: none !important;
+  opacity: 0.8;
+}
+.commentsBott button.MuiButton-root:hover{
+  opacity: 1;
+}
+.commentsBott .myInput .MuiInputBase-input{
+  color: #898484;
+  background: none !important;
+  border: 0px none !important;
+  padding-left: 0px; 
+}
+.MuiAccordion-root.commentAccordion {
+  -webkit-box-shadow: 0 0 0 0 rgba(0,0,0,0) !important;
+  box-shadow: 0 0 0 0 rgba(0,0,0,0) !important;
+}
+.MuiAccordion-root.commentAccordion:before{
+   display: none !important;
+}
+.MuiAccordion-root.commentAccordion .MuiAccordionSummary-content{
+  margin: 0px !important;
+}
+.MuiAccordion-root.commentAccordion .MuiAccordionSummary-root{
+  min-height: auto !important;
+}
+.cmtList{
+  display: block;
+}
+.cmtList li{
+  display: block;
+  border-bottom: 1px solid #e4e4e4;
+  display: flex;
+  align-items: center;
+  padding: 12px 0;
+  color: #898484;
+}
+.cmtList li .instituteName{
+  width: 90%;
+  margin-left: 0px;
+}
+.cmtList li h5{
+  font-weight: 500;
+  margin-bottom: 3px;
+}
+.cmtList li h5 em{
+  font-style: normal;
+  color: #32353C;
+  /* cursor: pointer; */
+}
+.cmtList li h5 span{
+  color: #A9ABAF;
+  font-size: 12px;
+  font-weight: 400;
+  margin-left: 10px;
+}
+.cmtList li p{
+  font-size: 14px !important;
+}
+.cmtList li:last-child{ 
+  border-bottom:0px none;
+}
+.cmtList li .profilePicInner {
+  width: 44px;
+  min-width: 44px;
+  height: 44px;
+}
+p.liked{
+  color: #4678F8;
+}
+.clearFlex{
+  clear: both;
+}
+.profileDetails{
+  width: 400px;
+  max-width: 100%;
+  display: inline-block;
+  border-top: 1px solid #32353C;
+  margin-top: 15px;
+  padding-top: 0;
+}
+.profileDetails ul li{
+  padding: 15px 0;
+  border-bottom:1px solid #e4e4e4;
+  display: block;
+  width: 100%;
+}
+.profileDetails ul li:first-child{
+  padding-top: 10px !important;
+}
+.profileDetails ul li:last-child{
+  border-bottom:0px none;
+}
+.profileDetails ul{
+  padding-top: 0px;
+}
+.profileDetails ul li label{
+  display: inline-block;
+  width: 49.5%;
+  color: #A9ABAF;
+  font-weight: 400;
+}
+.editOut{
+  display: block;
+  text-align: right; 
+}
+button.editButton{
+  background: none !important;
+  width: 35px;
+  min-width: 35px;
+  padding: 10px !important;
+  margin-top: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 992px) {
+  *{
+      letter-spacing: normal;
+  }
+  .plashBox h1 {
+      margin: 0 0 20px;
+  }
+  .plashPaper {
+      background: none !important;
+      margin-bottom: 0px;
+      -webkit-box-shadow: 0 0 0 0 rgba(0,0,0,0) !important;
+      box-shadow: 0 0 0 0 rgba(0,0,0,0) !important;
+  }
+  .footerMain{
+      display: none;
+  }
+  .myInput {
+      background: #fff ;
+      height: auto;
+  }
+  .myInput .MuiInputLabel-formControl{
+      background: none !important;
+  }
+  /* .MuiInputLabel-outlined.MuiInputLabel-shrink {
+      transform: translate(0, -6px) scale(0.75) !important;
+  } */
+  .plashPaper p.forgottPassword {
+      margin: 5px 0 22px !important;
+  }
+  .MuiContainer-root button,
+  .myInput .MuiInputBase-input{
+      height: 40px;
+      font-size: 14px !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  body{
+      font-size: 14px;
+  }
+  h1{
+      font-weight: 600;
+      font-size: 24px;
+      letter-spacing: 0.2px;
+  }
+  .plashPaper{
+      padding: 10px 0 20px !important;
+  }
+  .MuiPaper-root{
+      font-size: 14px ;
+  }
+}
+
+.errmsg{
+  color: rgb(219, 48, 48);
+  font-size: 14px;
+}
+
+.alg-grp-text{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+
+/* chat css */
+.direct-chat-messages {
+  height: 280px;
+  overflow: auto;
+  /* display:flex;
+  flex-direction: column-reverse; */
+  
+}
+
+
+main{
+  width:490px;
+  height:800px;
+  display:inline-block;
+  font-size:15px;
+  vertical-align:top;
+}
+
+
+h2,h3{
+  margin:0;
+}
+
+.status{
+  width:8px;
+  height:8px;
+  border-radius:50%;
+  display:inline-block;
+  margin-right:7px;
+}
+.green{
+  background-color:#58b666;
+}
+.orange{
+  background-color:#ff725d;
+}
+.blue{
+  background-color:#6fbced;
+  margin-right:0;
+  margin-left:7px;
+}
+
+
+#chat{
+  padding-left:0;
+  margin:0;
+  list-style-type:none;
+  height:535px;
+  border-top:2px solid #fff;
+  border-bottom:2px solid #fff;
+}
+#chat li{
+  padding:10px 30px;
+}
+#chat h2,#chat h3{
+  display:inline-block;
+  font-size:13px;
+  font-weight:normal;
+}
+#chat h3{
+  color:#bbb;
+}
+#chat .entete{
+  margin-bottom:5px;
+}
+#chat .message{
+  padding:20px;
+  color:#fff;
+  line-height:25px;
+  max-width:90%;
+  display:inline-block;
+  text-align:left;
+  border-radius:5px;
+}
+#chat .me{
+  text-align:right;
+}
+#chat .you .message{
+  background-color:#58b666;
+}
+#chat .me .message{
+  background-color:#6fbced;
+}
+#chat .triangle{
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 10px 10px 10px;
+}
+#chat .you .triangle{
+    border-color: transparent transparent #58b666 transparent;
+    margin-left:15px;
+}
+#chat .me .triangle{
+    border-color: transparent transparent #6fbced transparent;
+    margin-left:375px;
+}
+
+
+.btn_options{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+
+}
+
+.button_option {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.box-home2{
+  background-color:white;
+  color: #000;
+  height: 170px;
+  cursor: pointer;
+}
+.box-home2:hover{
+  background-color:rgb(95, 93, 93);
+}
+
+  h3{
+    --s: 0.1em;   /* the thickness of the line */
+    --c: #ffffff; /* the color */
+    
+    color: #0000;
+
+    padding-bottom: var(--s);
+    
+    background: 
+      linear-gradient(90deg,var(--c) 50%,#000 0) calc(100% - var(--_p,0%))/200% 100%,
+      linear-gradient(var(--c) 0 0) 0% 100%/var(--_p,0%) var(--s) no-repeat;
+    -webkit-background-clip: text,padding-box;
+            background-clip: text,padding-box;
+    transition: 0.5s;
+  }
+  h3:hover {--_p: 100%}
+  
+  h3 {
+    font-family: system-ui, sans-serif;
+    font-size: 2rem;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 60px;
+  }
+
+  *[id="pagination-first-page"] {display:none  !important}
+  *[id="pagination-last-page"] {display:none  !important}
+  /* .tbldata .sc-gicDKM fxMZcL{
+    color: white !important;
+    height: 5px !important;
+  } */
+
+  .readndrollimg {
+    width: 110px;
+    height: 130px;
+    -webkit-box-shadow: 0 5px 13px 0 rgba(0, 0, 0, 0.55);
+    box-shadow: 0 5px 13px 0 rgba(0, 0, 0, 0.55);
+  }
+
+  .tblImgOut{
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 10px;
+      margin-bottom: 10px;
+  }
+  .tblImgOut img{
+    height: 60px !important;
+    object-fit: cover !important;
+    width: 100%;
+    box-shadow: none;
+  }
+
+  .calender .fc-direction-ltr .fc-daygrid-event .fc-event-time {
+  margin-right: 3px;
+  display: none;
+
+}
+
+/* .calender .fc-event-title{
+  word-wrap: break-word;
+} */
+.fc-event-time, .fc-event-title {
+  padding: 0 1px;
+  white-space: normal;
+  }
+
+
+/*   
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.MuiSelect-select {
+  height: auto;
+  min-height: 1.4375em;
+  width: 100px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+} */
+
+td{
+  padding-left: 50px;
+}
+th{
+  padding-left: 30px;
+}
+.red{
+  color: red;
+}
